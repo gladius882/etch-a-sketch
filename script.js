@@ -1,13 +1,18 @@
+let container = document.querySelector("#sketch");
+
 function draw(elements) {
-    let container = document.querySelector("#sketch");
     container.innerHTML = '';
+
+    let size = 0;
 
     for(let i=0; i<elements * elements; i++) {
 
         let div = document.createElement('div');
 
-        if(i % elements == 0) {
-            div.classList.add('wrap');
+        if( (i+1) % elements == 0 && i != 0) {
+            let wrapDiv = document.createElement('div');
+            wrapDiv.classList.add('wrap');
+            container.appendChild(wrapDiv);
         }
 
         container.appendChild(div);

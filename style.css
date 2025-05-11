@@ -16,7 +16,7 @@ header {
 
 
 #sketch div {
-    border: 1px solid red;
+    border: 1px solid grey;
     flex-grow: 1;
 }
 

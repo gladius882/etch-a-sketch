@@ -1,0 +1,20 @@
+#container {
+    width: 970px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+
+header {
+    display: flex;
+}
+
+#sketch {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#sketch div {
+    border: 1px solid red;
+}

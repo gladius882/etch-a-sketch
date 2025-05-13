@@ -7,6 +7,22 @@
 
 header {
     display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    border: 0;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input {
+    width: 80px;
+    text-align: center;
 }
 
 #sketch {

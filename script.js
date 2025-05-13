@@ -28,4 +28,11 @@ function onMouseOver(e) {
 
 document.addEventListener('DOMContentLoaded', () => {
     draw(16);
+
+    document.querySelector('header button').addEventListener('click', () => {
+
+    let size = document.querySelector('header input').value;
+    draw(size);
+});
 })
+
